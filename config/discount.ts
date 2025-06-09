@@ -20,77 +20,80 @@ export interface DiscountTour {
 
 export const discountTours: DiscountTour[] = [
   {
-    id: "humantay-lake",
-    images: ["/tours/humantay-lake.webp"],
+    id: "qeros-cultural-immersion",
+    images: ["/tours/qeros.jpg"],
     featured: true,
-    rating: 4.8,
-    reviews: 124,
-    location: "Cusco",
-    duration: "Full Day",
-    price: 65,
-    discountPrice: 45,
-    serviceType: "both",
-    translations: {
-      en: {
-        title: "Humantay Lake Tour",
-        description:
-          "Beautiful turquoise lagoon at the foot of the snowy Humantay.",
-        itineraryLink: "/en/tours/humantay-lake",
-      },
-      es: {
-        title: "Tour Laguna Humantay",
-        description: "Hermosa laguna turquesa al pie del nevado Humantay.",
-        itineraryLink: "/es/tours/laguna-humantay",
-      },
-    },
-  },
-  {
-    id: "rainbow-mountain",
-    images: ["/tours/rainbow-mountain.webp"],
-    rating: 4.7,
-    reviews: 156,
-    location: "Vinicunca",
-    duration: "Full Day",
-    price: 65,
-    discountPrice: 45,
-    serviceType: "both",
-    translations: {
-      en: {
-        title: "Rainbow Mountain Tour",
-        description:
-          "The famous mountain of 7 colors at 5,200 meters above sea level.",
-        itineraryLink: "/en/tours/rainbow-mountain",
-      },
-      es: {
-        title: "Tour Montaña de 7 Colores",
-        description:
-          "La famosa montaña de 7 colores a 5,200 metros sobre el nivel del mar.",
-        itineraryLink: "/es/tours/montana-colores",
-      },
-    },
-  },
-  {
-    id: "machupicchu-expedition",
-    images: ["/tours/machupicchu-expedition.jpg"],
     rating: 4.9,
-    reviews: 210,
-    location: "Machu Picchu",
-    duration: "Full Day",
-    price: 310,
-    discountPrice: 290,
+    reviews: 68,
+    location: "Comunidad Q'eros, Cusco",
+    duration: "3 días",
+    price: 350,
+    discountPrice: 295,
     serviceType: "group",
     translations: {
       en: {
-        title: "Machu Picchu by Expedition",
+        title: "Q'eros Nation: Andean Wisdom Immersion",
         description:
-          "Visit the wonder of the world with the Expedition train service.",
-        itineraryLink: "/en/tours/machupicchu-expedition",
+          "Live an authentic experience with the Q'eros, recognized as the last Inca descendants.",
+        itineraryLink: "/en/tours/qeros-cultural-immersion",
       },
       es: {
-        title: "Machu Picchu by Expedition",
+        title: "Nación Q'eros: Inmersión en la Sabiduría Andina",
         description:
-          "Visita la maravilla del mundo con el servicio de tren Expedition.",
-        itineraryLink: "/es/tours/machupicchu-expedition",
+          "Vive una experiencia auténtica con los Q'eros, reconocidos como los últimos descendientes incas.",
+        itineraryLink: "/es/tours/qeros-cultural-immersion",
+      },
+    },
+  },
+  {
+    id: "manu-biocultural",
+    images: ["/tours/manu.jpg"],
+    featured: true,
+    rating: 4.8,
+    reviews: 92,
+    location: "Reserva de Biósfera del Manu",
+    duration: "5 días",
+    price: 850,
+    discountPrice: 725,
+    serviceType: "both",
+    translations: {
+      en: {
+        title: "Manu Biocultural Expedition",
+        description:
+          "Deep in the Amazon, share with the Matsiguenka people their ancestral knowledge of the jungle.",
+        itineraryLink: "/en/tours/manu-biocultural",
+      },
+      es: {
+        title: "Expedición Biocultural al Manu",
+        description:
+          "En lo profundo de la Amazonía, comparte con el pueblo Matsiguenka sus saberes ancestrales sobre la selva.",
+        itineraryLink: "/es/tours/manu-biocultural",
+      },
+    },
+  },
+  {
+    id: "machupicchu-community",
+    images: ["/tours/machu-picchu.jpg"],
+    featured: false,
+    rating: 4.6,
+    reviews: 124,
+    location: "Valle Sagrado y Machu Picchu",
+    duration: "2 días",
+    price: 550,
+    discountPrice: 475,
+    serviceType: "both",
+    translations: {
+      en: {
+        title: "Machu Picchu + Andean Communities",
+        description:
+          "Combine the wonder of Machu Picchu with an authentic encounter with the Huilloc people.",
+        itineraryLink: "/en/tours/machupicchu-community",
+      },
+      es: {
+        title: "Machu Picchu + Comunidades Andinas",
+        description:
+          "Combina la maravilla de Machu Picchu con un encuentro auténtico con el pueblo Huilloc.",
+        itineraryLink: "/es/tours/machupicchu-community",
       },
     },
   },

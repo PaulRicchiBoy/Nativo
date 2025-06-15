@@ -19,14 +19,13 @@ const LanguageContext = createContext<LanguageContextType | undefined>(
 const translations = {
   en: {
     // Navigation
+    "nav.home": "Home",
 
     "nav.tours": "Tours",
     "nav.contact": "Contact",
     "nav.bookNow": "Book Now",
-    "nav.fulldays": "Full Days",
-    "nav.jungle": "Peruvian Jungle",
-    "nav.traking": "Adventure-Trekking",
     "nav.experiences": "Experiences",
+    "nav.about": "we are natives",
 
     // Hero
     "hero.title": "Discover Amazing Adventures",
@@ -83,6 +82,7 @@ const translations = {
     "footer.terms": "Terms of Service",
     "footer.privacy": "Privacy Policy",
     "footer.allRightsReserved": "All rights reserved.",
+    "footer.rights": "Todos los derechos reservados.",
 
     // Contact
     "contact.title": "Contact Us",
@@ -105,14 +105,14 @@ const translations = {
   },
   es: {
     // Navigation
+    "nav.home": "Inicio",
 
     "nav.tours": "Tours",
     "nav.contact": "Contacto",
     "nav.bookNow": "Reservar Ahora",
-    "nav.fulldays": "FullDays",
-    "nav.jungle": "Selva Peruana",
     "nav.traking": "Aventura-Trekking",
     "nav.experiences": "Experiencias",
+    "nav.about": "Somos Nativos",
 
     // Hero
     "hero.title": "Descubre Aventuras Increíbles",
@@ -170,6 +170,7 @@ const translations = {
     "footer.terms": "Términos de Servicio",
     "footer.privacy": "Política de Privacidad",
     "footer.allRightsReserved": "Todos los derechos reservados.",
+    "footer.rights": "Todos los derechos reservados.",
 
     // Contact
     "contact.title": "Contáctanos",

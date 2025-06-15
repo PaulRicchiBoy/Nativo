@@ -14,9 +14,7 @@ export function Navbar() {
   const navigation = [
     { name: t("nav.tours"), href: "/tours" },
     { name: t("nav.experiences"), href: "/experiences" },
-    { name: t("nav.andean"), href: "/andean" },
-    { name: t("nav.jungle"), href: "/peruvian-jungle" },
-    { name: t("nav.traking"), href: "/adventure-trekking" },
+    { name: t("nav.about"), href: "/about" },
     { name: t("nav.contact"), href: "/contact" },
   ];
 
